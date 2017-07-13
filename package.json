@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "open": "^0.0.5",
+    "yargs": "^8.0.2"
+  },
+  "name": "kehrwoche",
+  "description": "Performs a Kehrwoche.",
+  "version": "1.0.4",
+  "main": "kehrwoche",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kehrwoche": "./kehrwoche"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwinkler/kehrwoche.git"
+  },
+  "keywords": [],
+  "author": "Ulrich Winkler <hallo@dr-ulrich-winkler.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uwinkler/kehrwoche/issues"
+  },
+  "homepage": "https://github.com/uwinkler/kehrwoche#readme"
+}

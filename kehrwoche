@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+'use strict';
+
+const args = require('yargs')
+	.usage('$0 [--about] [--help]')
+	.alias('v', 'verbose')
+	.boolean('about')
+	.describe('about', 'Mehr über die Kehrwoche erfahren.')
+	.default({ about: false })
+	.help()
+	.argv
+
+if (args.about) {
+	const open = require('open');
+	open('https://als.wikipedia.org/wiki/Schw%C3%A4bische_Kehrwoche');
+} else {
+	const spawn = require('child_process').spawn;
+	const cleanCmd = spawn('yarn', ['run', 'clean'], { stdio: "inherit" });
+	cleanCmd.on('close', (code) => {
+		if (code === 0) {
+			spawn('yarn', [], { stdio: "inherit" });
+		}
+	});
+}
+
+
