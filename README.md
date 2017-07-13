@@ -17,11 +17,11 @@ To perform a decent Kehrwoche execute:
 
     kehrwoche
 
-To get some kehrwoche help:
+To get Kehrwoche help:
 
     kehrwoche --help
 
-To learn more about kehrwoche:
+To learn more about Kehrwoche:
 
     kehrwoche --about
 
