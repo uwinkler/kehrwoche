@@ -17,7 +17,7 @@ To perform a decent Kehrwoche execute:
 
     kehrwoche
 
-To see help a help page:
+To get some kehrwoche help:
 
     kehrwoche --help
 
