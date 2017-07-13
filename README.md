@@ -8,7 +8,7 @@ The Swabian or Württembergische Kehrwoche began at the end of the 15th century 
 
 or
 
-    yarn add --global kehrwoche
+    yarn global add kehrwoche
 
 
 ## Usage
