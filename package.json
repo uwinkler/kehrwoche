@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "open": "^0.0.5",
-    "yargs": "^8.0.2"
+    "yargs": "^12.0.2"
   },
   "name": "kehrwoche",
   "description": "Performs a Kehrwoche.",
